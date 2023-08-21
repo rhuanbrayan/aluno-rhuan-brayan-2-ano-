@@ -1,6 +1,6 @@
 .cabecalho {
     background-color: #424E61;
-    color: white;
+    color: rgb(248, 64, 64);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,7 +13,7 @@
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 
@@ -21,4 +21,25 @@
 *{
     margin: 0;
        padding: 0;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+<link rel="stylesheet" href="style.css">
+
+.escola{
+    background-image: linear-gradient(#f9f9fa,#16CFF8);
+    color: #faf5f5;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+
+body {
+   
+    font-family: 'Poppins', sans-serif;
 }
